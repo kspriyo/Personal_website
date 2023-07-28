@@ -1,0 +1,97 @@
+baseURL = "https://matthewsanabria.dev/"
+languageCode = "en-us"
+title = "Matthew Sanabria"
+
+paginate = 10
+pluralizelisttitles = false
+
+[module]
+[[module.imports]]
+    path = "github.com/lukeorth/poison"
+
+[params]
+    brand = "Matthew Sanabria"
+    brand_image = "https://sudomateo.nyc3.digitaloceanspaces.com/images/Matthew-Sanabria-400x400.png"
+    description = "Software Engineer | Mentor | Speaker"
+    dark_mode = true
+
+    # The following parameters are optional and used for meta tags.
+    # og_image = ""
+    # publisher_icon = ""
+    # favicon = ""
+
+    # Social links.
+    # discord_url = ""
+    # email_url = ""
+    # facebook_url = ""
+    # flickr_url = "https://flickr.com"
+    github_url = "https://github.com/sudomateo"
+    # gitlab_url = ""
+    # instagram_url = ""
+    linkedin_url = "https://linkedin.com/in/sudomateo"
+    mastodon_url = "https://mastodon.online/@sudomateo"
+    # matrix_url = ""
+    # telegram_url = ""
+    # tryhackme_url = ""
+    twitter_url = "https://twitter.com/sudomateo"
+    # xmpp_url = ""
+    youtube_url = "https://www.youtube.com/channel/UC7los1CzimITtvYjOQFqyrQ"
+
+    # RSS settings.
+    rss_icon = true
+    rss_section = ""
+
+    # Sidebar menu.
+    [[params.menu]]
+        Name = "About"
+        URL = "/about"
+        HasChildren = false
+    [[params.menu]]
+        Name = "Posts"
+        URL = "/posts"
+        # Pre = "Recent"
+        HasChildren = true
+        Limit = 5
+
+    # Hex colors for the sidebar.
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_img_border_color = "#515151"    # default is #515151
+    sidebar_p_color = "#909090"             # default is #909090
+    sidebar_h1_color = "#FFF"               # default is #FFF
+    sidebar_a_color = "#FFF"                # default is #FFF
+    sidebar_socials_color = "#FFF"          # default is #FFF
+    moon_sun_color = "#FFF"                 # default is #FFF
+    moon_sun_background_color = "#515151"   # default is #515151
+
+    # Hex colors for the content in light mode.
+    text_color = "#222"             # default is #222
+    content_bg_color = "#FAF9F6"    # default is #FAF9F6
+    post_title_color = "#303030"    # default is #303030
+    list_color = "#5a5a5a"          # default is #5a5a5a
+    link_color = "#268bd2"          # default is #268bd2
+    date_color = "#515151"          # default is #515151
+    table_border_color = "#E5E5E5"  # default is #E5E5E5
+    table_stripe_color = "#F9F9F9"  # default is #F9F9F9
+
+    # Hex colors for the content in dark mode
+    text_color_dark = "#eee"                # default is #eee
+    content_bg_color_dark = "#121212"       # default is #121212
+    post_title_color_dark = "#DBE2E9"       # default is #DBE2E9
+    list_color_dark = "#9d9d9d"             # default is #9d9d9d
+    link_color_dark = "#268bd2"             # default is #268bd2
+    date_color_dark = "#9a9a9a"             # default is #9a9a9a
+    table_border_color_dark = "#515151"     # default is #515151
+    table_stripe_color_dark = "#202020"     # default is #202020
+    code_color = "#bf616a"                  # default is #bf616a
+    code_background_color = "#E5E5E5"       # default is #E5E5E5
+    code_color_dark = "#ff7f7f"             # default is #ff7f7f
+    code_background_color_dark = "#393D47"  # default is #393D47
+
+    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
+    # remark42 = true
+    # remark42_host = "https://yourhost.com"
+    # remark42_site_id = "your_site_id"
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
