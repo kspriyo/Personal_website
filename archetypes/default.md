@@ -4,5 +4,4 @@ date: {{ .Date }}
 draft: true
 series: []
 tags: []
-summary: |
 ---
