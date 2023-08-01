@@ -1,7 +1,7 @@
 ---
 title: "App Platform Inconsistencies"
 date: 2023-07-31T18:51:58-04:00
-draft: true
+draft: false
 series: []
 tags: []
 ---
