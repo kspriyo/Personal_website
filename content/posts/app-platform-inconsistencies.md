@@ -192,7 +192,7 @@ with an error that the `hugo` command was not found. I download the `hugo`
 command and chained commands together with `&&`. Eventually, I was able to get a
 deployment to succeed with the following build command.
 
-```
+```sh
 curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.115.4/hugo_extended_0.115.4_linux-amd64.tar.gz && tar -xvf hugo.tar.gz -C bin hugo && hugo
 ```
 
