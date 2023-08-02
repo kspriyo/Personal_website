@@ -322,10 +322,10 @@ couldn't use a CNAME record since it's [not recommended to use a CNAME for the
 apex
 domain](https://serverfault.com/questions/613829/why-cant-a-cname-record-be-used-at-the-apex-aka-root-of-a-domain).
 
-Okay, ALIAS record it is. I went into Route53 console to create an ALIAS record
-for my domain pointing to the deployment URL of my application. Nope, you can't
-do that with Route53. You can only create ALIAS records in Route53 that point to
-AWS resources.
+Okay, ALIAS record it is. I went into the Route53 console to create an ALIAS
+record for my domain pointing to the deployment URL of my application. Nope,
+you can't do that with Route53. You can only create ALIAS records in Route53
+that point to AWS resources.
 
 **DigitalOcean did not provide an alternative method of configuring DNS for the
 application deployment**.
