@@ -1,5 +1,5 @@
 module github.com/sudomateo/website
 
-go 1.20
+go 1.21.4
 
-require github.com/lukeorth/poison v0.0.0-20230711170235-3af78e1d6698 // indirect
+require github.com/lukeorth/poison v0.0.0-20231127173437-187e26ee34d3 // indirect
