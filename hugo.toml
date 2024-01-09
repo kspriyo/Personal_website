@@ -39,7 +39,7 @@ pluralizelisttitles = false
 
     # RSS settings.
     rss_icon = true
-    rss_section = ""
+    rss_section = "posts"
 
     # Sidebar menu.
     [[params.menu]]
