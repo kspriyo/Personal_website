@@ -39,7 +39,9 @@ pluralizelisttitles = false
 
     # RSS settings.
     rss_icon = true
-    rss_section = "posts"
+    # The RSS section is unset to use the global RSS feed instead of a
+    # section-specific feed.
+    # rss_section = ""
 
     # Sidebar menu.
     [[params.menu]]
