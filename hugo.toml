@@ -12,7 +12,7 @@ pluralizelisttitles = false
 [params]
     brand = "Matthew Sanabria"
     brand_image = "https://sudomateo.nyc3.digitaloceanspaces.com/images/Matthew-Sanabria-400x400.png"
-    description = "Software Engineer | Mentor | Speaker"
+    description = "The Best Engineer!"
     dark_mode = true
 
     # The following parameters are optional and used for meta tags.
