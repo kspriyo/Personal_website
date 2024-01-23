@@ -1,4 +1,4 @@
-FROM golang:1.21.4
+FROM golang:1.21.6
 
 # Install curl.
 RUN apt-get update && \
@@ -7,7 +7,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Hugo.
-ENV HUGO_VERSION=0.120.4
+ENV HUGO_VERSION=0.121.2
 RUN curl -L -o /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz && \
     tar -xvf /tmp/hugo.tar.gz -C /usr/local/bin hugo && \
     rm -rf /tmp/hugo.tar.gz
