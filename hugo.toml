@@ -11,7 +11,7 @@ pluralizelisttitles = false
 
 [params]
     brand = "Matthew Sanabria"
-    brand_image = "https://sudomateo.nyc3.digitaloceanspaces.com/images/Matthew-Sanabria-400x400.png"
+    brand_image = "https://sudomateo.nyc3.digitaloceanspaces.com/images/Matthew-Sanabria-Profile.jpeg"
     description = "The Best Engineer!"
     dark_mode = true
 
