@@ -12,7 +12,7 @@ pluralizelisttitles = false
 [params]
     brand = "Matthew Sanabria"
     brand_image = "https://sudomateo.nyc3.digitaloceanspaces.com/images/Matthew-Sanabria-Profile.jpeg"
-    description = "Turning great people into great engineers!"
+    description = "Helping great people become great engineers!"
     dark_mode = true
 
     # The following parameters are optional and used for meta tags.
@@ -35,7 +35,7 @@ pluralizelisttitles = false
     # tryhackme_url = ""
     twitter_url = "https://twitter.com/sudomateo"
     # xmpp_url = ""
-    youtube_url = "https://www.youtube.com/channel/UC7los1CzimITtvYjOQFqyrQ"
+    youtube_url = "https://www.youtube.com/@sudomateo"
 
     # RSS settings.
     rss_icon = true
