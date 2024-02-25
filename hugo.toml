@@ -11,12 +11,12 @@ title               = "Matthew Sanabria"
     brand               = "Matthew Sanabria"
     dark_mode           = true
     description         = "Helping great people become great engineers!"
+    og_image            = "/sudomateo.png"
     remote_brand_image  = "https://github.com/sudomateo.png"
     rss_icon            = true
     rss_section         = ""
 
     # favicon = ""
-    # og_image = ""
     # publisher_icon = ""
     # remark42 = true
     # remark42_host = "https://yourhost.com"
