@@ -8,12 +8,12 @@ title               = "Matthew Sanabria"
     path = "github.com/lukeorth/poison"
 
 [params]
-    brand       = "Matthew Sanabria"
-    brand_image = "https://sudomateo.nyc3.digitaloceanspaces.com/images/Matthew-Sanabria-Profile.jpeg"
-    dark_mode   = true
-    description = "Helping great people become great engineers!"
-    rss_icon    = true
-    rss_section = ""
+    brand               = "Matthew Sanabria"
+    dark_mode           = true
+    description         = "Helping great people become great engineers!"
+    remote_brand_image  = "https://github.com/sudomateo.png"
+    rss_icon            = true
+    rss_section         = ""
 
     # favicon = ""
     # og_image = ""
